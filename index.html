@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -26,12 +29,13 @@
       </script>
 
     <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
+        .font-Lato{
+          font-family: 'Lato', sans-serif;
+            /* font-family: 'Manrope', sans-serif; */
         }
     </style>
 </head>
-<body>
+<body class="font-Lato">
     <header>
         <!-- max-w-screen-xl mx-auto -->
         <!-- <div class=" max-w-screen-xl mx-auto navbar bg-base-100 bg-[#F85559] rounded-3xl ">
@@ -105,8 +109,9 @@
             <div class="navbar-end hidden lg:inline  ">
                 <div class="form-control lg:flex text-center ">
                     <input type="text" placeholder="Search Here" class="input   w-60  mt-4 mb-4 relative ml-60 " />
-                    <!-- <p class=" my-2  ml-1 top-20 absolute "><i class="fa-solid fa-magnifying-glass     "></i></p> -->
+                    <p class=" my-2  ml-96  top-20 absolute "><i class="fa-solid fa-magnifying-glass     "></i></p>  
                   </div>
+                  
                
             </div>
           </div>
@@ -191,7 +196,45 @@
                         <a href="#slide1" class="btn btn-circle">❯</a>
                       </div>
                     </div>
+
+                    
+
                   </div>
+
+                  <div class=" -mt-28 flex items-center gap-4 drop-shadow-lg bg-white p-10 w-3/4 mx-auto rounded-xl">
+                    <!-- <i class="fa-solid fa-star text-3xl text-amber-400 "></i> -->
+                    
+                    <!-- First images -->
+                    <div class="flex lg:justify-center gap-5 ml-10">
+                        <div>
+                          <img src="./images/fruit1.png" alt="">
+                          <p class="text-center">Grapes</p>
+                      </div>
+
+                      <div>
+                        <img src="./images/fruit2.png" alt="">
+                        <p class="text-center">Orange</p>
+                      </div>
+
+                      <div>
+                        <img src="./images/fruit3.png" alt="">
+                        <p class="text-center">Mango</p>
+                      </div>
+
+                      <div>
+                        <img src="./images/fruit4.png" alt="">
+                        <p class="text-center">Strawberry</p>
+                      </div>
+
+                      <div>
+                        <img src="./images/fruit5.png" alt="">
+                        <p class="text-center">Pomegranate</p>
+                      </div>
+                    </div>
+                    
+
+                   </div>
+
               </div>
 
              
@@ -203,18 +246,65 @@
 
 
     </header>
-    <main class="max-w-screen-xl mx-auto mt-60">
+    <main class="max-w-screen-xl mx-auto mt-56">
 
 
         <section class=""> 
 
-            <div class="flex justify-between gap-56">
+            <div class="flex justify-between gap-56 mb-12">
                 <div class="space-y-5">
                     <h2 class=" text-5xl font-extrabold">Deal of the day</h2>
-                    <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text-base font-medium text-[#12121299] ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
+
                 <div>
-                    count
+
+
+                  <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+
+                      <span class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:29;"></span>
+                      </span>
+                      
+                      Days
+                    </div> 
+                    <p class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></p>
+
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:15;"></span>
+                      </span>
+                      Hours
+                    </div> 
+
+                    <p class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></p>
+
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:25;"></span>
+                      </span>
+                      Minutes
+                    </div> 
+
+                    <p class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></p>
+
+
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:08;"></span>
+                      </span>
+                      Seconds
+                    </div>
+                  </div>
+
+
                 </div>
             </div>
             
@@ -322,7 +412,7 @@
              </div>
           </div>
               <!-- Fourth cards -->
-              <div class="card   bg-base-100 rounded-lg border-2 ">
+              <div class="card   bg-base-100 rounded-lg border-2 "  >
                 <figure class="px-10 pt-10">
                 <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -349,7 +439,52 @@
 
               <!-- Button -->
               <div class="card-actions mt-5">
-                <button class="text-[#F85559] text-base ">Details</button>
+                <button onclick="my_modal_1.showModal()" class="text-[#F85559] text-base ">Details</button>
+
+                <dialog id="my_modal_1" class="modal">
+
+                  <form method="dialog" class="modal-box">
+                    
+
+                    <div class="card   bg-base-100 rounded-lg border-2 "  >
+                      <figure class="px-10 pt-10">
+                      <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                          <hr class="border-t border-red-300 my-4">
+                          <p class="font-semibold">12.90$ - 18.85$</p>
+                          <hr class=" bg-red-600 ">
+                     <h2 class="text-base">Apples</h2>
+
+                     <p>Professional employees are there for you to pick the <br>most amazing and fresh fruits.</p>
+      
+                    <!-- Rating -->
+                    <div class="rating rating-lg rating-half ">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1 text-sm " />
+                      <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+                    </div>
+
+                    
+
+
+                    <div class="modal-action gap-5">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="bg-[#F1F1F1] text-red-600 border-2 px-3 py-2">Close</button>
+                      <button class="text-white bg-[#F85559] px-3 py-2">Buy Now</button>
+                    </div>
+                  </form>
+                </dialog>
+
+
               </div>
              </div>
           </div>
@@ -358,7 +493,10 @@
             </div>
              
                 <div class="text-center mt-14 mb-36">
-                    <button class=" bg-[#F85559] rounded-lg px-7 py-5 text-xl font-extrabold text-[#FFFFFF]">Shop All</button>
+                    <button  class=" bg-[#F85559] rounded-lg px-7 py-5 text-xl font-extrabold text-[#FFFFFF]">Shop All</button>
+
+                    
+
                 </div>
                  
             
